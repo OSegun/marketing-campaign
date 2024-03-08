@@ -25,7 +25,7 @@ def prediction(data):
 
 
 def main():
-    st.title("Diabetes Predictive Model")
+    st.title("Bank Marketing Predictive Model")
     age = st.number_input("Age of the customer: ")
     job = st.text_input("Client's Occupation: ")
     marital = st.text_input("Client's Marital Status : divorced, married, single")
